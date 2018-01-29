@@ -175,15 +175,15 @@ header.masthead {
 }
 
 .resume {
-  overflow: auto;
-  height: 200vh;
-  padding: none;
+  height: 120vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   background-image: url(../img/resume.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -257,6 +257,20 @@ header.masthead p {
   transition: all .2s
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flexVert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -271,7 +285,7 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase
 }
