@@ -1,3 +1,3 @@
 ## Bryan Long Portfolio Site
 
-[Live Site](www.BryanLong.tech) 
+[Live Site](https://www.bryanlong.tech/) 
