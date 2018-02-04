@@ -117,7 +117,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #F4F4F4; !important;
+  color: #F4F4F4;
+   !important;
   background-color: transparent
 }
 
@@ -262,6 +263,14 @@ header.masthead p {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+/* Why is this media query not working? Icons should stack on small screens */
+@media (max-width:768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .flexVert {
