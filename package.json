@@ -1,29 +1,25 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
+    "title": "Bryan Long Portfolio",
+    "name": "Bryan Long Portfolio",
     "version": "4.0.0",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "description": "Web Development Portfolio.",
     "keywords": [
         "css",
-        "sass",
         "html",
         "responsive",
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/creative",
+    "homepage": "www.BryanLong.tech",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/BryanLong14/Portfolio-Website",
+        "email": "BryanLong1@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Bryan Long",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/BryanLong14/Portfolio-Website.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
