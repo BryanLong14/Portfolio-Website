@@ -258,6 +258,9 @@ header.masthead p {
   transition: all .2s
 }
 
+.topMargin{
+  margin-top: 20rem;
+}
 .flex {
   display: flex;
   flex-direction: row;
