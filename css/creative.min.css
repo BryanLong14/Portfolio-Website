@@ -57,7 +57,8 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, .7)
+  color: #F4F4F4;
+  text-emphasis: outline;
 }
 
 .section-heading {
@@ -141,7 +142,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: #123C69;
+    color: #C0B283;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: .5rem 1rem
@@ -215,7 +216,7 @@ header.masthead h1 {
 }
 
 header.masthead p {
-  font-weight: 300
+  font-weight: 500
 }
 
 @media (min-width:768px) {
