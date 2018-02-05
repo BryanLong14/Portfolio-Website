@@ -1,14 +1,14 @@
 /* COLOR PALLETTE
 Ink (dark blue): #062F4F
 Best Blue: #123C69
-
 Pale Gold: #C0B283
 Silk: #DCD0C0
 Paper: #F4F4F4
 Charcoal: #373737
 */
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100%
 }
@@ -38,7 +38,12 @@ a:hover {
   color: #C0B283
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
@@ -54,10 +59,6 @@ h1, h2, h3, h4, h5, h6 {
 .text-faded {
   color: rgba(255, 255, 255, .7)
 }
-
-/* section {
-  padding: 8rem 0
-} */
 
 .section-heading {
   margin-top: 0
@@ -101,49 +102,56 @@ img::-moz-selection {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
   color: #C0B283
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #F4F4F4;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
   color: #F4F4F4;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #F4F4F4;
-   !important;
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+  color: #F4F4F4 !important;
   background-color: transparent
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
   background-color: transparent
 }
 
 @media (min-width:992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent
+    border-color: #123C69;
+    background-color: #123C69;
   }
   #mainNav .navbar-brand {
     color: #F4F4F4;
   }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
     color: #123C69;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: .5rem 1rem
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #F4F4F4;
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #F4F4F4;
   }
   #mainNav.navbar-shrink {
@@ -153,13 +161,16 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     color: #F4F4F4;
   }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+  #mainNav.navbar-shrink .navbar-brand:focus,
+  #mainNav.navbar-shrink .navbar-brand:hover {
     color: #F4F4F4;
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #F4F4F4;
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #C0B283
   }
 }
@@ -258,9 +269,10 @@ header.masthead p {
   transition: all .2s
 }
 
-.topMargin{
+.topMargin {
   margin-top: 20rem;
 }
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -269,11 +281,21 @@ header.masthead p {
 }
 
 /* Why is this media query not working? Icons should stack on small screens */
+
 @media (max-width:768px) {
   .flex {
     display: flex;
     flex-direction: column;
   }
+   header.masthead {
+     background-image: url(../img/header2.jpg);
+     background-position: center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover
+   }
+
 }
 
 .flexVert {
@@ -291,7 +313,8 @@ header.masthead p {
   text-align: center
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
@@ -344,21 +367,26 @@ header.masthead p {
   padding: 1rem 2rem
 }
 
-.btn-xl:active, .btn-xl:focus, .btn-xl:hover {
+.btn-xl:active,
+.btn-xl:focus,
+.btn-xl:hover {
   color: #F4F4F4;
   background-color: #123C69 !important
 }
 
 .btn-primary {
-  background-color: #373737;
-  border-color: #373737;
+  background-color: #123C69;
+  border-color: #123C69;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   color: #F4F4F4;
   background-color: #123C69 !important
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn-primary:active,
+.btn-primary:focus {
   box-shadow: 0 0 0 .2rem #123C69 !important
 }
