@@ -202,59 +202,6 @@ header.masthead {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
-  header.masthead {
-    padding-top: 1rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../img/header.jpg);
-    background-position: absolute;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .resume {
-    display: none;
-  }
-}
-
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-header.masthead h1 {
-  font-size: 2rem;
-}
-
-header.masthead p {
-  font-weight: 500;
-}
-
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 4rem;
-  }
-}
-
 .service-box {
   max-width: 400px;
 }
@@ -293,20 +240,60 @@ header.masthead p {
   justify-content: space-around;
 }
 
-/* Why is this media query not working? Icons should stack on small screens */
-
 @media (max-width: 768px) {
-  .flex {
-    display: flex;
-    flex-direction: column;
-  }
   header.masthead {
-    background-image: url(../img/header2.jpg);
-    background-position: center center;
+    padding-top: 1rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/header.jpg);
+    background-position: right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .resume {
+    display: none;
+  }
+    .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
   }
 }
 
