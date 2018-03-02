@@ -10,32 +10,32 @@ Charcoal: #373737
 body,
 html {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 body {
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif
+  font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #C0B283
+  border-color: #c0b283;
 }
 
 hr.light {
-  border-color: #F4F4F4
+  border-color: #f4f4f4;
 }
 
 a {
-  color: #C0B283;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  transition: all .2s
+  color: #c0b283;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 a:hover {
-  color: #C0B283
+  color: #c0b283;
 }
 
 h1,
@@ -44,138 +44,140 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .bg-primary {
   background-color: #373737 !important;
-  padding: 8rem 0
+  padding: 8rem 0;
 }
 
 .bg-dark {
-  background-color: #123C69 !important
+  background-color: #123c69 !important;
 }
 
 .text-faded {
-  color: #F4F4F4;
+  color: #f4f4f4;
   text-emphasis: outline;
 }
 
 .section-heading {
-  margin-top: 0
+  margin-top: 0;
 }
 
 ::-moz-selection {
-  color: ##F4F4F4;
+  color: ##f4f4f4;
   background: #212529;
-  text-shadow: none
+  text-shadow: none;
 }
 
 ::selection {
-  color: #F4F4F4;
+  color: #f4f4f4;
   background: #212529;
-  text-shadow: none
+  text-shadow: none;
 }
 
 img::selection {
-  color: #F4F4F4;
-  background: 0 0
+  color: #f4f4f4;
+  background: 0 0;
 }
 
 img::-moz-selection {
-  color: #F4F4F4;
-  background: 0 0
+  color: #f4f4f4;
+  background: 0 0;
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, .1);
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #373737;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  transition: all .2s
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F4F4F4;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+  color: #f4f4f4;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #C0B283
+  color: #c0b283;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link,
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-  font-size: .9rem;
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
-#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-  color: #F4F4F4;
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #f4f4f4;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #F4F4F4 !important;
-  background-color: transparent
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #f4f4f4 !important;
+  background-color: transparent;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
-  background-color: transparent
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   #mainNav {
-    border-color: #123C69;
-    background-color: #123C69;
+    border-color: #123c69;
+    background-color: #123c69;
   }
   #mainNav .navbar-brand {
-    color: #F4F4F4;
+    color: #f4f4f4;
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: #C0B283;
+    color: #c0b283;
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link {
-    padding: .5rem 1rem
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link,
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #F4F4F4;
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #f4f4f4;
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-    color: #F4F4F4;
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #f4f4f4;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, .1);
-    background-color: #373737
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #373737;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F4F4F4;
+    color: #f4f4f4;
   }
   #mainNav.navbar-shrink .navbar-brand:focus,
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #F4F4F4;
+    color: #f4f4f4;
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #F4F4F4;
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #f4f4f4;
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
-    color: #C0B283
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #c0b283;
   }
 }
-
+#drop-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) !important;
+}
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -184,7 +186,7 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover
+  background-size: cover;
 }
 
 .resume {
@@ -200,7 +202,17 @@ header.masthead {
   background-repeat: no-repeat;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 1rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/header.jpg);
+    background-position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   .resume {
     display: none;
   }
@@ -208,43 +220,43 @@ header.masthead {
 
 header.masthead hr {
   margin-top: 30px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 header.masthead h1 {
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 header.masthead p {
-  font-weight: 500
+  font-weight: 500;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.15rem
+    font-size: 1.15rem;
   }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   header.masthead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
-    padding-bottom: 0
+    padding-bottom: 0;
   }
   header.masthead h1 {
-    font-size: 3rem
+    font-size: 3rem;
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem
+    font-size: 4rem;
   }
 }
 
 .service-box {
-  max-width: 400px
+  max-width: 400px;
 }
 
 .portfolio-box {
@@ -264,10 +276,10 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: #C0B283;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  transition: all .2s
+  background: #c0b283;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .topMargin {
@@ -283,20 +295,19 @@ header.masthead p {
 
 /* Why is this media query not working? Icons should stack on small screens */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .flex {
     display: flex;
     flex-direction: column;
   }
-   header.masthead {
-     background-image: url(../img/header2.jpg);
-     background-position: center center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover
-   }
-
+  header.masthead {
+    background-image: url(../img/header2.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .flexVert {
@@ -311,44 +322,44 @@ header.masthead p {
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
-  text-align: center
+  text-align: center;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 24px;
   font-weight: 600;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px
+  font-size: 18px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1
+  opacity: 1;
 }
 
 .portfolio-box:focus {
-  outline: 0
+  outline: 0;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px
+    font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px
+    font-size: 22px;
   }
 }
 
 .text-primary {
-  color: #123C69 !important
+  color: #123c69 !important;
 }
 
 .btn {
@@ -356,7 +367,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* .btn:active, .btn:focus, .btn:hover {
@@ -365,29 +376,29 @@ header.masthead p {
 } */
 
 .btn-xl {
-  padding: 1rem 2rem
+  padding: 1rem 2rem;
 }
 
 .btn-xl:active,
 .btn-xl:focus,
 .btn-xl:hover {
-  color: #F4F4F4;
-  background-color: #123C69 !important
+  color: #f4f4f4;
+  background-color: #123c69 !important;
 }
 
 .btn-primary {
-  background-color: #123C69;
-  border-color: #123C69;
+  background-color: #123c69;
+  border-color: #123c69;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  color: #F4F4F4;
-  background-color: #C0B283 !important
+  color: #f4f4f4;
+  background-color: #c0b283 !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem #C0B283 !important
+  box-shadow: 0 0 0 0.2rem #c0b283 !important;
 }
