@@ -191,9 +191,9 @@ header.masthead {
 
 .resume {
   height: 120vh;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background-image: url(../img/resume.jpg);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: url(../img/BryanLongResume.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -246,6 +246,7 @@ header.masthead {
     padding-bottom: calc(10rem - 56px);
     background-image: url(../img/header.jpg);
     background-position: right center;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -254,7 +255,7 @@ header.masthead {
   .resume {
     display: none;
   }
-    .flex {
+  .flex {
     display: flex;
     flex-direction: column;
   }
