@@ -48,7 +48,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #373737 !important;
+  background-color: #123C69 !important;
   padding: 6rem 0;
 }
 
@@ -89,7 +89,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #373737;
+  background-color: #123C69;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -163,7 +163,7 @@ img::-moz-selection {
 
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #373737;
+    background-color: #123C69;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
