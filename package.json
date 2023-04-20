@@ -29,7 +29,7 @@
         "scrollreveal": "3.3.6"
     },
     "devDependencies": {
-        "browser-sync": "2.23.5",
+        "browser-sync": "2.29.1",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
